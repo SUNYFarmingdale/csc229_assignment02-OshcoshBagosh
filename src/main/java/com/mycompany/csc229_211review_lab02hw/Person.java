@@ -8,13 +8,13 @@ public abstract class Person {
 	
 	private String name;
 	private String address;
-	private short age;
-	
-	// constructor that takes only two paras
+	private int age;
+
 	public Person(){
 
 	}
-	public Person(String name, short age) {
+	// constructor that takes only two paras
+	public Person(String name, int age) {
 		super();
 		this.name = name;
 		this.age = age;
@@ -33,11 +33,11 @@ public abstract class Person {
 	public abstract void setAddress(String address);
 	
 	
-	public short getAge() {
+	public int getAge() {
 		return age;
 	}
 	
-	public void setAge(short age) {
+	public void setAge(int age) {
 		this.age = age;
 	}
 	
